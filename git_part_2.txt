@@ -14,7 +14,7 @@
 
 - Mobile testing - git branch MobileTesting
 
-2. Запушить все ветки на внешний репозиторий - git push origin --all
+2. Запушить все ветки на внешний репозиторий - git push -u origin --all
 
 3. В ветке Bug Reports сделать текстовый документ со структурой баг-репорта - перейти в ветку git checkout BugReports
 создать файл touch bug_report.txt
