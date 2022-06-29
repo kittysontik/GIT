@@ -1,0 +1,13 @@
+
+Screen Validation Check Points related to Validation Conditions
+
+1.	Does a failure of validation on every field cause a sensible user error message?	
+2.	Is the user required to fix entries, which have failed validation tests?	
+3.	Have any fields got multiple validation rules and if so are all rules being applied?	
+4.	If the user enters an invalid value and clicks on the OK button (i.e. does not TAB off the field) is the invalid entry identified and highlighted correctly with an error message?	
+5.	Is validation consistently applied at screen level unless specifically required at field level?	
+6.	For all numeric fields check whether negative numbers can and should be able to be entered.	
+7.	For all numeric fields check the minimum and maximum values and also some mid-range values allowable?	
+8.	For all character/alphanumeric fields check the field to ensure that there is a character limit specified and that this limit is exactly correct for the specified database size?	
+9.	Do all mandatory fields require user input?	
+10.	If any of the database columns don’t allow null values then the corresponding screen fields must be mandatory. (If any field which initially was mandatory has become optional then check whether null values are allowed in this field.)
